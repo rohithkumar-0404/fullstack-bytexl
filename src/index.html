@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Campus Club and Travel Buddy</title>
+</head>
+
+<body>
+
+<h1>Campus Club Member Management</h1>
+
+<form action="/members" method="POST">
+
+    <label>Member ID:</label>
+    <input type="text" name="memberId" required>
+    <br><br>
+
+    <label>Name:</label>
+    <input type="text" name="name" required>
+    <br><br>
+
+    <label>Club Name:</label>
+    <input type="text" name="clubName" required>
+    <br><br>
+
+    <label>Year:</label>
+    <input type="number" name="year" required>
+    <br><br>
+
+    <label>Role:</label>
+    <input type="text" name="role" required>
+    <br><br>
+
+    <label>Points:</label>
+    <input type="number" name="points" required>
+    <br><br>
+
+    <label>Interests:</label>
+    <input type="text" name="interests">
+    <br><br>
+
+    <label>Status:</label>
+    <input type="text" name="status">
+    <br><br>
+
+    <button type="submit">Add Member</button>
+
+</form>
+
+<br>
+
+<a href="/members">View All Members</a>
+
+<hr>
+
+<h1>Travel Buddy Finder</h1>
+
+<form action="/buddies" method="POST">
+
+    <label>Buddy ID:</label>
+    <input type="text" name="buddyId" required>
+    <br><br>
+
+    <label>Name:</label>
+    <input type="text" name="name" required>
+    <br><br>
+
+    <label>Destination:</label>
+    <input type="text" name="destination" required>
+    <br><br>
+
+    <label>Age:</label>
+    <input type="number" name="age" required>
+    <br><br>
+
+    <label>Budget:</label>
+    <input type="number" name="budget" required>
+    <br><br>
+
+    <label>Trip Duration:</label>
+    <input type="number" name="tripDuration" required>
+    <br><br>
+
+    <label>Interests:</label>
+    <input type="text" name="interests">
+    <br><br>
+
+    <label>Status:</label>
+    <input type="text" name="status">
+    <br><br>
+
+    <button type="submit">Add Travel Buddy</button>
+
+</form>
+
+<br>
+
+<a href="/buddies">View All Travel Buddies</a>
+
+
+</body>
+</html>
