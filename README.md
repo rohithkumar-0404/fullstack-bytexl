@@ -33,3 +33,6 @@ Via Thunder Client:
 5. Click on 'Send' to make the request.
 
 Happy coding! 🙂
+## Full Stack Application
+
+A MongoDB-based full stack application developed as part of Full Stack Development coursework.
