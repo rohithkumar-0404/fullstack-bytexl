@@ -13,10 +13,6 @@ app.use(express.json());
 mongoose.connect(process.env.MONGO_URI)
     .then(() => {
         console.log("MongoDB connected successfully");
-
-        app.listen(3000, () => {
-            console.log("Server running at http://localhost:3000");
-        });
     })
     .catch((error) => {
         console.log("MongoDB connection error:", error.message);
@@ -388,3 +384,8 @@ app.get("/buddies-sort", async (req, res) => {
         res.status(500).send("Error sorting buddies");
     }
 });
+
+
+// ==================== EXPORT APP ====================
+
+module.exports = app;
